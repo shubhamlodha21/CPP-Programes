@@ -20,11 +20,11 @@ int main() {
             cout<<"*";
         }
 
-        //Space
-        for (int j=0;j<n-i-1;j++) 
-        { 
-            cout<<" ";
-        }
+        // //Space
+        // for (int j=0;j<n-i-1;j++) 
+        // { 
+        //     cout<<" ";
+        // }
         cout<<endl;
     }
     return 0;
