@@ -5,11 +5,13 @@ int main(void)
 {
     int n = 5;
 
-    for(int i=0;i<n;i++)
+    for(int i=0;i<=n;i++)
     {
-        for(char ch = 'A' + n; ch>='A'; ch-- )
+        // char ch = 'A' + n;
+        // for(int j=0;j<=i;j++ )
+        for(char ch = n + 'A' - i ; ch<='E'; ch++)
         {
-            cout<<ch<<" ";
+            cout<<ch<<' ';
         }
         cout<<endl;
     }
