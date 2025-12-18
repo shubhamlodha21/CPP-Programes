@@ -15,6 +15,7 @@ int main()
         v.push_back(i);
     }
 
+    cout<<"Size of vector is:"<<v.size()<<endl;
     cout<<"Elements in the vectors are:";
     for(auto i=v.begin();i!=v.end();i++)
         cout<<*i<< " ";
